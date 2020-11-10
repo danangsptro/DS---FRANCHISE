@@ -1,0 +1,187 @@
+/* Header */
+.navbar-light{
+  background-color: #FEBD01;
+  padding: 2rem;
+  font-family: Viga;
+}
+.navbar-brand{
+    font-size: 30px;
+}
+/* Content */
+.content{
+    margin-top: 3rem;
+}
+#border{
+    background-color: #FEBD01;
+    height: 500px;
+    border-radius: 3rem;
+    text-align: center;
+}
+#border1{
+    background-color:#17a2b8;
+    height: 500px;
+    border-radius: 3rem;
+    text-align: center;
+}
+#border2{
+    background-color: #28a745;;
+    height: 500px;
+    border-radius: 3rem;
+    text-align: center;
+}
+.btn-light{
+    border-radius: 3rem;
+    padding: 1rem;
+    color: darkcyan;
+}
+
+/* Peluang */
+.peluang{
+  margin-top: 4rem;
+}
+#p{
+  font-family: sans-serif;
+}
+#peluang1{
+  text-align: center;
+  margin-top:2rem ;
+}
+
+/* Makanan & Minuman */
+#makan{
+  margin-top: 2rem;
+  font-family: Verdana;
+}
+#fontfnb{
+    font-family: Verdana;
+}
+
+/* Detail */
+#dt{
+  background-color: salmon;
+}
+
+/* Upload */
+#upload{
+  text-align: center;
+  margin-top: 2rem;
+}
+#krm{
+  height: 40px;
+  width: 120px;
+}
+
+/* Footer */
+#footer{
+  margin-top: 3rem;
+  min-height: 300px;
+  text-align: center;
+  background-color: #100f0f;
+  color: white;
+}
+/* Footer Dasboard */
+.ftd{
+  text-align: center;
+}
+#ftd{
+    text-align: center;
+}
+
+
+/* Animasi */
+.kotak img {
+    -webkit-transition: 0.4s ease;
+    transition: 0.4s ease;
+  }
+
+.zoom-effect:hover .kotak img {
+    -webkit-transform: scale(1.08);
+    transform: scale(1.04);
+}
+#berita{
+    color: white;
+    width: 60px;
+    height: 20px;
+    font-family: sans-serif;
+}
+#editor{
+    font-family: sans-serif;
+}
+
+
+/* button  peluang*/
+
+#bt {
+    border-radius: 4px;
+    background-color: rgb(23, 202, 202);
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 14px;
+    padding: 10px;
+    width: 137px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+  }
+
+  #bt #span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+
+  #bt #span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+
+#bt:hover #span {
+    padding-right: 15px;
+  }
+
+  #bt:hover #span:after {
+    opacity: 1;
+    right: 0;
+  }
+
+/* icon social media */
+.fb {
+    padding: 20px;
+    font-size: 30px;
+    width: 60px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 5rem;
+    width: 55px;
+    height: 55px;
+  }
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+  .fa-telegram{
+      background-color: #45aafd;;
+      color: white;
+  }
+  .fa-whatsapp{
+      background: #38c172;;
+      color: white;
+  }
+
+/* Jam */
+.jam{
+    background-color: #FEBD01;
+    padding-top: 1rem;
+    font-size: 13px;
+}
